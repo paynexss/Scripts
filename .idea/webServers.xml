@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="81958e80-b380-4cf2-9d5c-6ffe0dac97a7" name="Scripts">
+        <fileTransfer rootFolder="/var/mobile/Containers/Data/Application/8A902C18-8D5A-4E8D-AD04-C1720345ED91/Documents/" accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="211d5311-80ee-46c2-91ce-0d481214350f" sshConfig="mobile@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="04a86ee2-27f1-4e6e-b1a7-809e5edaf854" name="Configuration">
+        <fileTransfer rootFolder="/var/mobile/Containers/Shared/AppGroup/C808BCE4-1BB0-4A01-8380-361EB8017B18/Documents/configuration" accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="211d5311-80ee-46c2-91ce-0d481214350f" sshConfig="mobile@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
